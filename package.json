@@ -1,0 +1,32 @@
+{
+  "name": "projeto02-nodejs",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/index.ts",
+    "test": "vitest",
+    "biuld": "tsup src --out-dir biuld"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "supertest": "^6.3.3",
+    "ts-node": "^10.9.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4",
+    "vitest": "^0.32.0"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^8.3.0",
+    "@types/supertest": "^2.0.12",
+    "dotenv": "^16.1.4",
+    "fastify": "^4.17.0",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.6",
+    "zod": "^3.21.4"
+  }
+}
